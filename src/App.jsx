@@ -8,6 +8,7 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
+import { MemoryGame } from "./components/sections/MemoryGame";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -25,6 +26,7 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        {/* <MemoryGame /> */}
         {/* <Projects /> */}
         <Contact />
       </div>
